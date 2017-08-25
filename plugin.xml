@@ -312,9 +312,18 @@
         <!-- AdMob -->
         <framework custom="true" src="libs/iOS/Adapters/APDGoogleAdMobAdapter.embeddedframework/GoogleMobileAds.framework"/>
         <source-file src="libs/iOS/Adapters/APDGoogleAdMobAdapter.embeddedframework/libAPDGoogleAdMobAdapter.a" framework="true"/>
+        <!-- Flurry -->
+        <framework custom="true" src="libs/iOS/Adapters/APDFlurryAdapter.embeddedframework/Flurry.framework"/>
+		<framework custom="true" src="libs/iOS/Adapters/APDFlurryAdapter.embeddedframework/FlurryAds.framework"/>
+        <source-file src="libs/iOS/Adapters/APDFlurryAdapter.embeddedframework/libAPDFlurryAdapter.a" framework="true"/>
         <!-- InMobi -->
-        <framework custom="true" src="libs/iOS/Adapters/APDInMobyAdapter.embeddedframework/InMobiSDK.framework"/>
-        <source-file src="libs/iOS/Adapters/APDInMobyAdapter.embeddedframework/libAPDInMobyAdapter.a" framework="true"/>
+        <framework custom="true" src="libs/iOS/Adapters/APDInMobiAdapter.embeddedframework/InMobiSDK.framework"/>
+        <source-file src="libs/iOS/Adapters/APDInMobiAdapter.embeddedframework/libAPDInMobiAdapter.a" framework="true"/>
+        <!-- Ironsource -->
+        <framework custom="true" src="libs/iOS/Adapters/APDIronSourceAdapter.embeddedframework/Supersonic.framework"/>
+        <source-file src="libs/iOS/Adapters/APDIronSourceAdapter.embeddedframework/libAPDIronSourceAdapter.a" framework="true"/>
+        <resource-file src="libs/iOS/Adapters/APDIronSourceAdapter.embeddedframework/Resources/button-close-highlighted.png"/>
+        <resource-file src="libs/iOS/Adapters/APDIronSourceAdapter.embeddedframework/Resources/button-close-default.png"/>
         <!-- MyTarget -->
         <framework custom="true" src="libs/iOS/Adapters/APDMyTargetAdapter.embeddedframework/MyTargetSDK.framework"/>
         <source-file src="libs/iOS/Adapters/APDMyTargetAdapter.embeddedframework/libAPDMyTargetAdapter.a" framework="true"/>
@@ -348,24 +357,18 @@
         <resource-file src="libs/iOS/Adapters/APDTwitterMoPubAdapter.embeddedframework/Resources/MPUnmutedBtn@2x.png"/>
         <resource-file src="libs/iOS/Adapters/APDTwitterMoPubAdapter.embeddedframework/Resources/MPUnmutedBtn@3x.png"/>
         <resource-file src="libs/iOS/Adapters/APDTwitterMoPubAdapter.embeddedframework/Resources/MRAID.bundle"/>
-	<resource-file src="libs/iOS/Adapters/APDTwitterMoPubAdapter.embeddedframework/Resources/MPAdBrowserController.xib"/>
+		<resource-file src="libs/iOS/Adapters/APDTwitterMoPubAdapter.embeddedframework/Resources/MPAdBrowserController.xib"/>
         <!-- UnityAds -->
         <framework custom="true" src="libs/iOS/Adapters/APDUnityAdapter.embeddedframework/UnityAds.framework"/>
         <source-file src="libs/iOS/Adapters/APDUnityAdapter.embeddedframework/libAPDUnityAdapter.a" framework="true"/>
-        <resource-file src="libs/iOS/Adapters/APDUnityAdapter.embeddedframework/Resources/UnityAds.bundle"/>
         <!-- Vungle -->
         <framework custom="true" src="libs/iOS/Adapters/APDVungleAdapter.embeddedframework/VungleSDK.framework"/>
         <source-file src="libs/iOS/Adapters/APDVungleAdapter.embeddedframework/libAPDVungleAdapter.a" framework="true"/>
-        <resource-file src="libs/iOS/Adapters/APDVungleAdapter.embeddedframework/Resources/__vungle.db"/>
-        <resource-file src="libs/iOS/Adapters/APDVungleAdapter.embeddedframework/Resources/vg_close.png"/>
-        <resource-file src="libs/iOS/Adapters/APDVungleAdapter.embeddedframework/Resources/vg_cta.png"/>
-        <resource-file src="libs/iOS/Adapters/APDVungleAdapter.embeddedframework/Resources/vg_mute_off.png"/>
-        <resource-file src="libs/iOS/Adapters/APDVungleAdapter.embeddedframework/Resources/vg_mute_on.png"/>
-        <resource-file src="libs/iOS/Adapters/APDVungleAdapter.embeddedframework/Resources/vg_privacy.png"/>
         <!-- Yandex -->
         <framework custom="true" src="libs/iOS/Adapters/APDYandexAdapter.embeddedframework/YandexMobileMetrica.framework"/>
         <framework custom="true" src="libs/iOS/Adapters/APDYandexAdapter.embeddedframework/YandexMobileAds.framework"/>
         <source-file src="libs/iOS/Adapters/APDYandexAdapter.embeddedframework/libAPDYandexAdapter.a" framework="true"/>
-        
+        <!-- Yandex -->
+        <source-file src="libs/iOS/Adapters/APDZplayAdapter.embeddedframework/libAPDZplayAdapter.a" framework="true"/>
       </platform>
 </plugin>
